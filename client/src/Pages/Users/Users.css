@@ -1,0 +1,64 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.user-card {
+    display: flex;
+}
+
+.user-card h1 {
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+
+.title {
+    text-align: center;
+    border: 2px solid black;
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.user-titles {
+    display: flex;
+}
+
+.user-titles h1 {
+    width: 50%;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: grey;
+}
+
+
+
+.user-card button {
+    background-color: brown;
+    margin-left: auto;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.user-card button:hover {
+    background-color: white;
+    color: black;
+}
